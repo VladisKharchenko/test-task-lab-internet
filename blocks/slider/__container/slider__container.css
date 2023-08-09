@@ -1,0 +1,22 @@
+.slider__container {
+  overflow: hidden;
+  padding-top: 32px;
+  padding-bottom: 50px;
+  padding-right: 32px;
+  padding-left: 32px;
+  max-width: 1084px;
+}
+
+@media (max-width: 768px) {
+  .slider__container {
+    padding-left: 15px;
+  }
+}
+
+@media (max-width: 375px) {
+  .slider__container {
+    padding-top: 25px;
+    padding-left: 6px;
+    padding-bottom: 41px;
+  }
+}

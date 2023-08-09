@@ -1,0 +1,12 @@
+.header__navigation-link {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: 'Graphik LCG', sans-serif;
+  cursor: pointer;
+}
+
+.header__navigation-link:hover {
+  text-decoration: underline;
+}

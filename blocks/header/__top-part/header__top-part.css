@@ -1,0 +1,22 @@
+.header__top-part {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-top: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .header__top-part {
+    max-width: 751px;
+    padding-top: 11px;
+  }
+}
+
+@media (max-width: 375px) {
+  .header__top-part {
+    max-width: 751px;
+    padding-top: 11px;
+  }
+}

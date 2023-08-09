@@ -1,0 +1,34 @@
+.header__main-button {
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #eceff2;
+  width: 251px;
+  height: 64px;
+  color: #191c1f;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: 'Graphik LCG', sans-serif;
+  margin-bottom: 313px;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .header__main-button {
+    margin-bottom: 396px;
+  }
+}
+
+@media (max-width: 375px) {
+  .header__main-button {
+    margin-bottom: 173px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header__main-button {
+    margin-bottom: 129px;
+  }
+}

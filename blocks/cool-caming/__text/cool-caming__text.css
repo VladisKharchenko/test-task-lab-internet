@@ -1,0 +1,29 @@
+.cool-caming__text {
+  margin: 0 0 30px 0;
+  color: #5e646a;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: 'Graphik LCG', sans-serif;
+}
+
+.cool-caming__text:last-of-type {
+  margin-bottom: 0;
+  max-width: 580px;
+}
+
+@media (max-width: 768px) {
+  .cool-caming__text {
+    margin-bottom: 28px;
+  }
+
+  .cool-caming__text:first-of-type {
+    max-width: 360px;
+  }
+}
+
+@media (max-width: 375px) {
+  .cool-caming__text {
+    text-align: center;
+  }
+}

@@ -1,0 +1,27 @@
+.cool-caming {
+  display: flex;
+  align-items: center;
+  max-width: 1216px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 768px) {
+  .cool-caming {
+    max-width: 727px;
+    margin-bottom: 57px;
+  }
+}
+
+@media (max-width: 500px) {
+  .cool-caming {
+    flex-wrap: wrap;
+    max-width: 340px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cool-caming {
+    max-width: 289px;
+  }
+}

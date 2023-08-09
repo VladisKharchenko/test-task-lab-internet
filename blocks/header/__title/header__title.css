@@ -1,0 +1,26 @@
+.header__title {
+  margin: 0;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 64px;
+  font-family: 'Graphik LCG', sans-serif;
+  text-align: center;
+  padding-bottom: 18px;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .header__title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 375px) {
+  .header__title {
+    font-size: 24px;
+    line-height: 32px;
+    padding-bottom: 11px;
+  }
+}

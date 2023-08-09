@@ -1,0 +1,15 @@
+.slide__text {
+  margin: 20px 0 0 0;
+  color: #191c1f;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: 'Graphik LCG', sans-serif;
+  max-width: 297px;
+}
+
+@media (max-width: 320px) {
+  .slide__text {
+    max-width: 242px;
+  }
+}

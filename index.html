@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лаборатория Интернет</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+    <script src="./scripts/index.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__overlay"></div>
+      <div class="header__top-part">
+        <div class="header__logo-part-container">
+          <button class="header__theme-switch-button">
+            <div class="header__theme-switch-button-circle-blue"></div>
+            <div class="header__theme-switch-button-circle-white"></div>
+          </button>
+          <p class="header__logo">testLab</p>
+        </div>
+        <nav class="header__navigation">
+          <ul class="header__navigation-list">
+            <li class="header__navigation-item">
+              <a class="header__navigation-link">Как это работает</a>
+            </li>
+            <li class="header__navigation-item">
+              <a class="header__navigation-link">3-й блок</a>
+            </li>
+            <li class="header__navigation-item">
+              <a class="header__navigation-link">Вопросы и&nbsp;ответы</a>
+            </li>
+            <li class="header__navigation-item">
+              <a class="header__navigation-link">Форма</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="burger-container">
+          <div class="burger-button">
+            <span class="burger-button__bar"></span>
+            <span class="burger-button__bar"></span>
+          </div>
+        </div>
+      </div>
+      <div class="header__main-part">
+        <h1 class="header__title">
+          Говорят, никогда не&nbsp;поздно сменить профессию
+        </h1>
+        <p class="header__text">
+          Сделай круто тестовое задание и&nbsp;у&nbsp;тебя получится
+        </p>
+        <button class="header__main-button">Проще простого!</button>
+      </div>
+    </header>
+    <section class="h-it-w">
+      <h2 class="h-it-w__title">Как это работает</h2>
+      <div class="places">
+        <article class="place">
+          <img
+            src="./images/place-img1.jpg"
+            class="place__img"
+            alt="Фон в виде серой кляксы на которой расположены: курсор и синие часы с белыми стрелками"
+          />
+          <div>
+            <h3 class="place__title">Прочитай задание внимательно</h3>
+            <p class="place__text">
+              Думаю у&nbsp;тебя не&nbsp;займет это больше двух-трех минут
+            </p>
+          </div>
+        </article>
+        <article class="place">
+          <img
+            src="./images/place-img2.jpg"
+            class="place__img"
+            alt="Фон в виде серой кляксы на которой расположены: курсор и синие часы с белыми стрелками"
+          />
+          <div>
+            <h3 class="place__title">Изучи весь макет заранее</h3>
+            <p class="place__text">
+              Подумай как это будет работать на&nbsp;разных разрешениях
+              и&nbsp;при скролле
+            </p>
+          </div>
+        </article>
+        <article class="place">
+          <img
+            src="./images/place-img3.jpg"
+            class="place__img"
+            alt="Фон в виде серой кляксы на которой расположены: курсор и синие часы с белыми стрелками"
+          />
+          <div>
+            <h3 class="place__title">Сделай хорошо</h3>
+            <p class="place__text">
+              Чтобы мы&nbsp;могли тебе доверить подобные задачи в&nbsp;будущем
+            </p>
+          </div>
+        </article>
+        <article class="place">
+          <img
+            src="./images/place-img4.jpg"
+            class="place__img"
+            alt="Фон в виде серой кляксы на которой расположены: курсор и синие часы с белыми стрелками"
+          />
+          <div>
+            <h3 class="place__title">Получи предложение</h3>
+            <p class="place__text">
+              Ну&nbsp;тут все просто, не&nbsp;я&nbsp;придумал правила,
+              но&nbsp;думаю так и&nbsp;будет)))
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="cool-caming">
+      <div class="cool-caming__container">
+        <h2 class="cool-caming__title">
+          Круто, ты&nbsp;дошел до&nbsp;третьего блока
+        </h2>
+        <p class="cool-caming__text">
+          63% опрошенных пользовались кредитами из-за того, что не&nbsp;могли
+          покрыть непредвиденные расходы свыше 15&nbsp;000&nbsp;₽.
+        </p>
+        <p class="cool-caming__text">
+          Доступ к&nbsp;заработанным деньгам помогает отказаться
+          от&nbsp;кредитов и экономить деньги на&nbsp;процентах и&nbsp;штрафах.
+        </p>
+      </div>
+      <img
+        src="./images/cool-caming-img.jpg"
+        class="cool-caming__img"
+        alt="Мультяшный человечек, который стоит облакотившись на телефон с фоном из грузовика"
+      />
+    </section>
+    <section class="reviews">
+      <h2 class="reviews__title">Отзывы</h2>
+      <div class="slider">
+        <button class="prev-button">
+          <img src="./images/controller-prev.svg" />
+        </button>
+        <div class="slider__container">
+          <div class="slides">
+            <div class="slide">
+              <div class="slide__container">
+                <img
+                  src="./images/slide-avatar1.jpg"
+                  class="slide__img"
+                  alt="Пустой аватар"
+                />
+                <div class="slide__heading-container">
+                  <h3 class="slide__title">Константинов Михаил Павлович</h3>
+                  <p class="slide__city">Санкт-Петербург</p>
+                </div>
+              </div>
+              <p class="slide__text">
+                Каждый из&nbsp;нас понимает очевидную вещь: перспективное
+                планирование предоставляет широкие возможности для анализа
+                существующих паттернов поведения. В&nbsp;своём стремлении
+                улучшить пользовательский опыт мы
+              </p>
+            </div>
+            <div class="slide">
+              <div>
+                <div class="slide__container">
+                  <img
+                    src="./images/slide-avatar2.jpg"
+                    class="slide__img"
+                    alt="Аватар мужчины в возрасте"
+                  />
+                  <div class="slide__heading-container">
+                    <h3 class="slide__title">Иван Иванов</h3>
+                    <p class="slide__city">Санкт-Петербург</p>
+                  </div>
+                </div>
+                <p class="slide__text">
+                  Каждый из&nbsp;нас понимает очевидную вещь: перспективное
+                  планирование предоставляет широкие возможности для анализа
+                  существующих паттернов поведения. В&nbsp;своём стремлении
+                  улучшить пользовательский опыт мы&nbsp;упускаем, что активно
+                  развивающиеся страны третьего мира призваны к&nbsp;ответу.
+                </p>
+              </div>
+            </div>
+            <div class="slide">
+              <div>
+                <div class="slide__container">
+                  <img
+                    src="./images/slide-avatar3.jpg"
+                    class="slide__img"
+                    alt="Аватар с лобовой часть Камаза"
+                  />
+                  <div class="slide__heading-container">
+                    <h3 class="slide__title">Артем Корнилов</h3>
+                    <p class="slide__city">Самара</p>
+                  </div>
+                </div>
+                <p class="slide__text">
+                  Каждый из&nbsp;нас понимает очевидную вещь: перспективное
+                  планирование предоставляет широкие возможности для анализа
+                  существующих паттернов поведения.
+                </p>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="slide__container">
+                <img
+                  src="./images/slide-avatar1.jpg"
+                  class="slide__img"
+                  alt="Пустой аватар"
+                />
+                <div class="slide__heading-container">
+                  <h3 class="slide__title">Константинов Михаил Павлович</h3>
+                  <p class="slide__city">Санкт-Петербург</p>
+                </div>
+              </div>
+              <p class="slide__text">
+                Каждый из&nbsp;нас понимает очевидную вещь: перспективное
+                планирование предоставляет широкие возможности для анализа
+                существующих паттернов поведения. В&nbsp;своём стремлении
+                улучшить пользовательский опыт мы
+              </p>
+            </div>
+            <div class="slide">
+              <div class="slide__container">
+                <img
+                  src="./images/slide-avatar1.jpg"
+                  class="slide__img"
+                  alt="Пустой аватар"
+                />
+                <div class="slide__heading-container">
+                  <h3 class="slide__title">Константинов Михаил Павлович</h3>
+                  <p class="slide__city">Санкт-Петербург</p>
+                </div>
+              </div>
+              <p class="slide__text">
+                Каждый из&nbsp;нас понимает очевидную вещь: перспективное
+                планирование предоставляет широкие возможности для анализа
+                существующих паттернов поведения. В&nbsp;своём стремлении
+                улучшить пользовательский опыт мы
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="next-button">
+          <img src="./images/controller-next.svg" />
+        </button>
+      </div>
+      <div class="slider__dots"></div>
+    </section>
+    <div class="border-line"></div>
+    <footer class="footer">
+      <p class="footer__copyright">&copy;&nbsp;2021 Лаборатория интернет</p>
+    </footer>
+    <div class="burger-menu">
+      <nav class="burger-menu__navigation">
+        <ul class="burger-menu__links">
+          <li class="burger-menu__link">
+            <div class="burger-menu__link-container">
+              <p class="burger-menu__link-text">Как это работает</p>
+              <img src="./images/controller-bg-menu.svg" />
+            </div>
+          </li>
+          <li class="burger-menu__link">
+            <div class="burger-menu__link-container">
+              <p class="burger-menu__link-text">3-й блок</p>
+              <img src="./images/controller-bg-menu.svg" />
+            </div>
+          </li>
+          <li class="burger-menu__link">
+            <div class="burger-menu__link-container">
+              <p class="burger-menu__link-text">Вопросы и ответы</p>
+              <img src="./images/controller-bg-menu.svg" />
+            </div>
+          </li>
+          <li class="burger-menu__link">
+            <div class="burger-menu__link-container">
+              <p class="burger-menu__link-text">Форма</p>
+              <img src="./images/controller-bg-menu.svg" />
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        const slides = $('.slides');
+        const slideWidth = $('.slide').outerWidth();
+        let currentSlide = 0;
+
+        function goToSlide(index) {
+          if (index < 0 || index >= slides.children().length) {
+            return;
+          }
+          currentSlide = index;
+          const translateX = -slideWidth * currentSlide;
+          slides.css('transform', `translateX(${translateX}px)`);
+
+          updateDots();
+        }
+
+        $('.next-button').click(function () {
+          goToSlide(currentSlide + 1);
+        });
+
+        $('.prev-button').click(function () {
+          goToSlide(currentSlide - 1);
+        });
+
+        function updateDots() {
+          const dotsContainer = $('.slider__dots');
+          dotsContainer.empty();
+
+          for (let i = 0; i < slides.children().length; i++) {
+            const dotClass = i === currentSlide ? 'dot active' : 'dot';
+            dotsContainer.append(
+              `<div class="${dotClass}" data-index="${i}"></div>`
+            );
+          }
+
+          $('.dot').click(function () {
+            const clickedIndex = $(this).data('index');
+            goToSlide(clickedIndex);
+          });
+        }
+
+        updateDots();
+      });
+    </script>
+  </body>
+</html>

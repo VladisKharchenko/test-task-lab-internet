@@ -1,0 +1,24 @@
+.slider__dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 45px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #C2C8CD;
+  margin-right: 17px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dot.active {
+  background-color: #2A6CEA;
+}
+
+.dot:last-of-type {
+  margin-right: 0;
+}

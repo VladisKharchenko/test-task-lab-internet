@@ -1,0 +1,10 @@
+.header__logo-part-container {
+  display: flex;
+  z-index: 2;
+}
+
+@media (max-width: 1250px) {
+  .header__logo-part-container {
+    margin-left: 21px;
+  }
+}

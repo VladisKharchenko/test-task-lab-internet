@@ -1,0 +1,9 @@
+.cool-caming__container {
+  
+}
+
+@media (max-width: 500px) {
+  .cool-caming__container {
+    order: 2;
+  }
+}

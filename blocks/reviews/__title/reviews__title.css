@@ -1,0 +1,24 @@
+.reviews__title {
+  margin: 0;
+  padding-top: 57px;
+  color: #191c1f;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 56px;
+  font-family: 'Graphik LCG', sans-serif;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .reviews__title {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  .reviews__title {
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 27px;
+  }
+}

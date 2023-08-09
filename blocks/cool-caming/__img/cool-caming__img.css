@@ -1,0 +1,32 @@
+.cool-caming__img {
+}
+
+@media (max-width: 796px) {
+  .cool-caming__img {
+    width: 351px;
+    height: 265px;
+  }
+}
+
+@media (max-width: 375px) {
+  .cool-caming__img {
+    width: 342px;
+    height: 258px;
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 358px) {
+  .cool-caming__img {
+    width: 288px;
+    height: 217px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cool-caming__img {
+    width: 288px;
+    height: 217px;
+    margin-bottom: 28px;
+  }
+}

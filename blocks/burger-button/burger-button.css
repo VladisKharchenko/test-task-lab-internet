@@ -1,0 +1,21 @@
+.burger-button {
+  width: 22px;
+  height: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.burger-button.open .burger-button__bar:nth-child(1) {
+  transform: translateY(4px) rotate(45deg);
+}
+
+.burger-button.open .burger-button__bar:nth-child(2) {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+.burger-button.open .burger-button__bar {
+  background-color: black;
+}
+

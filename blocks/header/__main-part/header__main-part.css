@@ -1,0 +1,28 @@
+.header__main-part {
+  padding-top: 258px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 748px;
+}
+
+@media (max-width: 768px) {
+  .header__main-part {
+    padding-top: 327px;
+    max-width: 574px;
+  }
+}
+
+@media (max-width: 375px) {
+  .header__main-part {
+    padding-top: 100px;
+    max-width: 311px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header__main-part {
+    padding-top: 57px;
+  }
+}

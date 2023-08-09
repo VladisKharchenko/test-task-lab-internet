@@ -1,0 +1,28 @@
+.cool-caming__title {
+  margin: 0 0 18px 0;
+  color: #191c1f;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  font-family: 'Graphik LCG', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .cool-caming__title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 375px) {
+  .cool-caming__title {
+    text-align: center;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .cool-caming__title {
+    margin-bottom: 28px;
+  }
+}

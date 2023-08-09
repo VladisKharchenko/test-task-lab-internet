@@ -1,0 +1,7 @@
+.burger-menu__link {
+  border-top: 1px solid #ECEFF2;
+}
+
+.burger-menu__link:last-of-type {
+  border-bottom: 1px solid #ECEFF2;
+}

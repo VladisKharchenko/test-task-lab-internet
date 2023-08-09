@@ -1,0 +1,10 @@
+.slide__container {
+  display: flex;
+  padding-top: 22px;
+}
+
+@media (max-width: 320px) {
+  .slide__container {
+    max-width: 242px;
+  }
+}

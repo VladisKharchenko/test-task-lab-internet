@@ -1,0 +1,7 @@
+.burger-menu__link-container {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}

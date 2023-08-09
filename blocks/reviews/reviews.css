@@ -1,0 +1,22 @@
+.reviews {
+  background-color: #f6f8fa;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 768px) {
+  .reviews {
+    margin-bottom: 39px;
+  }
+}
+
+@media (max-width: 375px) {
+  .reviews {
+    margin-bottom: 33px;
+  }
+}
+
+@media (max-width: 320px) {
+  .reviews {
+    margin-bottom: 11px;
+  }
+}

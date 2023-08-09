@@ -1,0 +1,9 @@
+.header__theme-switch-button-circle-blue {
+  background-color: #2a6cea;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 12px;
+  z-index: 1;
+}

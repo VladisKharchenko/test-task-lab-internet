@@ -1,0 +1,12 @@
+.place__img {
+  margin-bottom: 13px;
+}
+
+@media (max-width: 768px) {
+  .place__img {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 0;
+    margin-right: 16px;
+  }
+}
